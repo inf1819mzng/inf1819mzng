@@ -1,0 +1,29 @@
+PROVA IN ITINERE DEL 25 NOVEMBRE 2014 
+ 
+PROGRAMMAZIONE + LABORATORIO 
+ 
+CORSO DI LAUREA:   INFORMATICA E COMUNICAZIONE DIGITALE TARANTO 
+ 
+Prof.ssa Teresa Roselli 
+ 
+ 
+Il proprietario di una catena di supermercati intende creare una tabella per una più efficiente gestione dei suoi supermercati. Per ogni supermercato il sistema deve memorizzare: il nome e il cognome del responsabile del supermercato; l’indirizzo del supermercato (ad Esempio Via: Roma, 4 e città: Taranto; il numero di dipendenti, il fatturato dell’ultimo anno.  
+Il programma dovrà consentire di: 
+• caricare le informazioni della tabella; 
+
+• visualizzare i dati del supermercato il cui responsabile è inserito in input dal proprietario della catena; 
+
+• visualizzare quanti supermercati sono presenti nella città  inserita in input dal proprietario della catena; 
+
+• visualizzare il supermercato  che ha il maggior numero di dipendenti.  
+
+
+ 
+Per la soluzione del problema, sviluppare le seguenti fasi: 
+a) Analizzare il problema chiarendo le sue specifiche e formulando eventuali ipotesi necessarie per la soluzione. Individuare i dati di ingresso (dominio di definizione) e fornire un campione. Individuare i dati di uscita o risultati (dominio di definizione) e fornire il campione associato al campione di ingresso.  
+b) Progettare la strategia di soluzione individuando una scomposizione del problema in sottoproblemi e rappresentarla mediante uno schema (ad es. l’albero di sviluppo). 
+c) Descrivere la strategia di soluzione mediante un linguaggio di descrizione. 
+ 
+ 
+ 
+

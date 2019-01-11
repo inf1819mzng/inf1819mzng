@@ -1,0 +1,29 @@
+PROVA IN ITINERE DEL 21 NOVEMBRE 2014 
+ 
+PROGRAMMAZIONE + LABORATORIO 
+ 
+CORSO DI LAUREA:   INFORMATICA  
+ 
+Prof.ssa Teresa Roselli 
+ 
+ 
+Un imprenditore edile intende creare una tabella per una più efficiente gestione dei suoi cantieri. Per ogni cantiere il sistema deve memorizzare: il nome e il cognome dell’ingegnere responsabile; l’indirizzo del cantiere (ad Esempio Via: Orabona, 4 e città: Bari); il numero di operai impiegati nel cantiere, l’anno di apertura e l’anno previsto di chiusura del cantiere.  
+Il programma dovrà consentire di: 
+. caricare le informazioni della tabella; 
+
+. visualizzare tutti i cantieri il cui responsabile è l’ingegnere inserito in input dall’imprenditore; 
+
+. visualizzare quanti cantieri non sono ancora chiusi e quanti non sono ancora aperti rispetto ad un determinato anno inserito in input dall’imprenditore;  
+
+. visualizzare il cantiere  che ha il maggior numero di operai.  
+
+
+ 
+Per la soluzione del problema, sviluppare le seguenti fasi: 
+a) Analizzare il problema chiarendo le sue specifiche e formulando eventuali ipotesi necessarie per la soluzione. Individuare i dati di ingresso (dominio di definizione) e fornire un campione. Individuare i dati di uscita o risultati (dominio di definizione) e fornire il campione associato al campione di ingresso.  
+b) Progettare la strategia di soluzione individuando una scomposizione del problema in sottoproblemi e rappresentarla mediante uno schema (ad es. l’albero di sviluppo). 
+c) Descrivere la strategia di soluzione mediante un linguaggio di descrizione. 
+ 
+ 
+ 
+

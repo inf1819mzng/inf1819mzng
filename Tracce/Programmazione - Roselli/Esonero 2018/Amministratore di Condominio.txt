@@ -1,0 +1,32 @@
+PROVA IN ITINERE DEL 16 NOVEMBRE 2018 PROGRAMMAZIONE+ LABORATORIO 
+• 
+
+CORSO DI LAUREA: INFORMATICA Prof.ssa Teresa Roselli 
+Un amministratore di condominio deve redigere il rendiconto annuale dello stabile da lui amministrato.
+Per ogni condomino dispone delle seguenti informazioni: nominativo, piano, interno, quota versata durante l'anno, totale delle spese ordinarie e totale delle spese straordinarie. 
+I programma dovrà consentire di: 
+• 
+Caricare le informazioni in una tabella; 
+
+• 
+Visualizzare per ogni condomino il saldo precisando se a debito o a credito; 
+
+• 
+Inserito il nominativo di un condomino, visualizzare la quota che ha versato durante l'anno e il totale di tutte le spese che lo riguardano. 
+
+• 
+Visualizzare il nominativo del condomino con quota versata maggiore. 
+
+
+Perla soluzione del problema, sviluppare le seguenti fasi: 
+a) 
+Analizzare il problema chiarendo le sue specifiche e formulando eventuali ipotesi necessarie per la soluzione. Individuare i dati di ingresso (dominio di definizione) e fornire un campione. lndiYiduare i dati di uscita (dominio di definizione) e fornire il campione di output corrispondente al campione di input. 
+
+b) 
+Progettare la strategia di soluzione del problema individuando una scomposizione in sotto­problemi e rappresentarla attraverso un albero di sviluppo. 
+
+c) 
+Descrivere l'algoritmo risolutore di ciascun sotto-problema attraverso un linguaggio di descrizione grafico e/o lineare. 
+
+
+

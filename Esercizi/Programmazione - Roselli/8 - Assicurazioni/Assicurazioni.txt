@@ -1,0 +1,43 @@
+CORSO DI LAUREA: INFORMATICA E COMUNICAZIONE DIGITALE TARANTO PROGRAMMAZIONE
+
+
+Regolamento: coloro che non hanno superato la prova in itinere o che intendono rifiutare il voto della prova in itinere devono svolgere l'esercizio A. Coloro che hanno superato la prova in itinere e intendono mantenere il voto devono svolgere l’esercizio B, La prova dura 3,5 ore per i primi e 1,5 ore per i secondi.
+
+
+Esercizio A
+
+Una società di assicurazioni per determinare le premialità da assegnare ai suoi dipendenti dispone dei seguenti dati: codice del dipendente
+nominativo
+numero sinistri trattati dal dipendente numero sinistri conclusi
+compenso per sinistro
+Il programma dovrà:
+1. caricare le informazioni in una tabella
+2. calcolare per ogni dipendente il compenso totale per i sinistri conclusi
+3. fornire un elenco ordinato per numero sinistri da concludere con il rispettivo compenso
+4. individuare il nominativo del dipendente che ha concluso più sinistri
+
+Per la soluzione del problema, sviluppare le seguenti fasi:
+a) Analizzare il problema chiarendo le sue specifiche e formulando eventuali ipotesi necessarie per la soluzione. Individuare i dati di ingresso (dominio di definizione) e fornire un campione. Individuare i dati di uscita o risultati (dominio di definizione) e fornire il campione associato al campione di ingresso.
+b) Progettare la strategia di soluzione individuando una scomposizione del problema in sottoproblemi e rappresentarla mediante uno schema (ad es. l'albero di sviluppo).
+c) Descrivere la strategia di soluzione mediante un linguaggio di descrizione.
+d) Codificare la soluzione
+e) Eseguire il trace utilizzando il campione di input definito al punto a.
+
+Esercizio B.
+
+Una società di assicurazioni per determinare le premialità da assegnare ai suoi dipendenti dispone dei seguenti dati:
+codice del dipendente
+nominativo
+numero sinistri trattati dal dipendente
+numero sinistri conclusi compenso per sinistro
+Il programma dovrà:
+1. caricare le informazioni in una tabella
+2. fornire un elenco ordinato per numero sinistri da concludere con il rispettivo compenso
+
+Per la soluzione del problema, sviluppare le seguenti fasi:
+a. Analizzare il problema chiarendo le sue specifiche e formulando eventuali "ipotesi necessarie per la soluzione. Individuare i dati di ingresso (dominio di definizione) e fornire un campione. Individuate i dati di uscita o risultati (dominio di definizione) e fornire il campione associato al campione di ingresso.
+b. Progettare la strategia di soluzione individuando una scomposizione del problema in sottoproblemi e
+rappresentarla mediante uno schema (ad es. l'albero di sviluppo).
+c. Descrivere la strategia di soluzione mediante un linguaggio di descrizione.
+d. Codificare la soluzione
+e. Eseguire il trace utilizzando il campione di input definito al punto a.

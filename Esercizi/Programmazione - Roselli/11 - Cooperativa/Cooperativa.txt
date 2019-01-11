@@ -1,0 +1,23 @@
+CORSO DI LAUREA: INFORMATICA PROGRAMMAZIONE
+Prof.ssa Teresa Roselli
+PROVA SCRITTA – 14 NOVEMBRE 2017
+
+Cognome 	Nome  	
+
+
+
+Esercizio A
+
+Una cooperativa che provvede all’assegnazione di appartamenti popolari dislocati in varie zone di diverse città, vuole gestire la procedura di assegnazione tramite un programma.
+Per ogni appartamento sono noti i seguenti dati: codice della città, nome della città, codice della zona, nome della zona, indirizzo, numero vani, numero servizi, numero del piano, costo della locazione.
+Alla cooperativa arrivano richieste che riportano i seguenti dati: nome del richiedente, città richiesta, numero minimo vani richiesti, massimo disponibile per il costo della locazione.
+Realizzare un programma che consenta alla cooperativa di
+1.	gestire le richieste organizzando i dati degli appartamenti mediante una tabella
+2.	verificare per ogni richiesta la possibilità di soddisfarla e, in caso di risposta affermativa, comunicare i dati relativi agli appartamenti che la soddisfano.
+3.	individuare l’appartamento al costo minimo che soddisfa la richiesta anche con un numero maggiore di vani
+
+Per la soluzione del problema, sviluppare le seguenti fasi:
+a)	Analizzare il problema chiarendo le sue specifiche e formulando eventuali ipotesi necessarie per la soluzione. Individuare i dati di ingresso (dominio di definizione) e fornire un campione. Individuare i dati di uscita o risultati (dominio di definizione) e fornire il campione associato al campione di ingresso.
+b)	Progettare la strategia di soluzione individuando una scomposizione del problema in sottoproblemi e rappresentarla mediante uno schema (ad es. l’albero di sviluppo).
+c)	Descrivere la strategia di soluzione mediante un linguaggio di descrizione.
+d)	Codificare la soluzione.

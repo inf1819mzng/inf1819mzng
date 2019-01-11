@@ -1,0 +1,23 @@
+CORSO DI LAUREA:   INFORMATICA  
+PROGRAMMAZIONE + LABORATORIO 
+Prof.ssa Teresa Roselli 
+ 
+ESERCIZIO 
+ 
+Un docente universitario intende tenere traccia dei voti d’esame ottenuti dagli studenti nel suo insegnamento. In particolare, egli tiene lo stesso insegnamento nei corsi di laurea in Informatica e Comunicazione Digitale delle sedi di Bari e Taranto. Per tenere traccia delle informazioni è necessario memorizzare la matricola dello studente, il suo cognome e nome, il corso di laurea a cui appartiene, il voto conseguito e l’anno in cui è stato sostenuto l’esame. 
+Progettare una soluzione al problema per tenere traccia delle informazioni accademiche considerando che: 
+. il docente deve poter caricare le informazioni degli esami sostenuti; 
+
+. dato un corso di laurea, indipendentemente dall’anno, deve essere possibile visualizzare la media dei voti; 
+
+. dato un anno, indipendentemente dal corso di laurea, deve essere possibile visualizzare il numero di studenti che hanno conseguito 30; 
+
+
+ 
+Per la soluzione del problema, sviluppare le seguenti fasi: 
+a) Analizzare il problema chiarendo le sue specifiche e formulando eventuali ipotesi necessarie per la soluzione. Individuare i dati di ingresso (dominio di definizione) e fornire un campione. Individuare i dati di uscita o risultati (dominio di definizione) e fornire il campione associato al campione di ingresso.  
+b) Progettare la strategia di soluzione individuando una scomposizione del problema in sottoproblemi e rappresentarla mediante uno schema (ad es. l’albero di sviluppo). 
+c) Descrivere la strategia di soluzione mediante un linguaggio di descrizione. 
+d) Codificare la soluzione. 
+ 
+

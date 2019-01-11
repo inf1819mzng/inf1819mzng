@@ -1,0 +1,19 @@
+CORSO DI LAUREA: INFORMATICA E COMUNICAZIONE DIGITALE PROGRAMMAZIONE +LABORATORIO
+Prof.ssa Teresa Roselli
+PROVA IN ITINERE DEL 15 NOVEMBRE 2011
+L'aeroporto della città "Vattelapesca" gestisce le prenotazioni dei voli mediante una tabella che, per ogni volo, riporta il codice del volo, la città di partenza, la città di destinazione, il numero totale dei posti e il numero dei posti occupati.
+Ogni agenzia di viaggio inoltra una serie di prenotazioni che riportano ciascuna il codice del volo e il numero dei posti che si vogliono prenotare.
+Progettare una soluzione al problema di gestione delle prenotazioni considerando che:
+• le prenotazioni provengono da un'unica agenzia
+• per ogni prenotazione trattata occorre fornire in output un messaggio di prenotazione effettuata o di posti non disponibili
+• si vuole in output la tabella aggiornata.
+
+
+Per la soluzione del problema, sviluppare le seguenti fasi:
+a) Analizzare il problema chiarendo le sue specifiche e formulando eventuali ipotesi necessarie per la soluzione.
+Individuare i dati di ingresso (dominio di definizione) e fornire un campione.
+Individuare i dati di uscita o risultati (dominio di definizione) e fornire il campione associato al campione di ingresso.
+Sintetizzare l'analisi indicando l'incognita, i dati di ingresso e la condizione.
+b) Progettare la strategia di soluzione individuando una scomposizione del problema in sottoproblemi e rappresentarla mediante uno schema (ad es. l'albero di sviluppo).
+c) Descrivere la strategia di soluzione mediante un linguaggio di descrizione.
+d) Eseguire il trace con uno o più campioni di dati.

@@ -1,0 +1,21 @@
+ESERCIZIO LUGLIO 2018
+
+PROGRAMMAZIONE + LABORATORIO
+CORSO DI LAUREA: INFORMATICA E COMUNICAZIONE DIGITALE
+Prof.ssa Teresa Roselli
+
+
+La stazione centrale della città di Big City gestisce le prenotazioni dei passeggeri mediante una tabella che per ogni treno riporta il codice del treno, la città di partenza, la città di destinazione, il numero totale dei posti di prima classe e il numero di quelli occupati (sempre di prima classe), il numero totale dei posti di seconda classe e il numero di quelli occupati (sempre di seconda classe). Ponendo che una agenzia di viaggi invii una serie di prenotazioni che riportano in ognuna il codice del treno, la classe richiesta e il numero dei posti da prenotare, progettare una soluzione al problema che:
+-Per ogni prenotazione fornisca in output un messaggio di conferma oppure di posti non disponibili;
+-Aggiorni la tabella e la fornisca in output ordinata per numero crescente di posti occupati di prima classe.
+
+Per la soluzione del problema, sviluppare le seguenti fasi:
+
+a)	Analizzare il problema chiarendo le sue specifiche e formulando eventuali ipotesi necessarie per la soluzione. Individuare i dati di ingresso (dominio di definizione) e fornire un campione. Individuare i dati di uscita o risultati (dominio di definizione) e fornire il campione associato al campione di ingresso. Sintetizzare l'analisi indicando l'incognita, i dati di ingresso e la condizione.
+
+b)	Progettare la strategia di soluzione individuando una scomposizione del problema in sottoproblemi e rappresentarla mediante uno schema (ad es. l’albero di sviluppo).
+
+c)	Descrivere la strategia di soluzione mediante un linguaggio di descrizione.
+
+d)	Eseguire il trace con uno o più campioni di dati.
+

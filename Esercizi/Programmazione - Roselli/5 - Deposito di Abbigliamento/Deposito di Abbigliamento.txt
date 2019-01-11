@@ -1,0 +1,44 @@
+ESERCIZIO NOVEMBRE 2013 
+ 
+PROGRAMMAZIONE + LABORATORIO 
+CORSO DI LAUREA:   INFORMATICA E COMUNICAZIONE DIGITALE 
+Prof.ssa Teresa Roselli 
+ 
+ 
+ 
+Un grande deposito di abbigliamento gestisce gli ordini che arrivano da più sedi dislocate in varie regioni mediante una tabella che per ogni articolo riporta il codice identificativo dell’articolo, il nome dell’articolo, il costo dell’articolo, la percentuale di ricarico da applicare (ad esempio 0,30; 0,50; etc.); il numero di pezzi presenti in deposito, il numero minimo di scorta. Ad ogni ordine deve corrispondere una interrogazione della tabella per rispondere alla richiesta fatta dalla sede richiedente e, in base al risultato, l’aggiornamento della tabella. Ogni ordine riporta il codice dell’ordine, il codice identificativo della sede richiedente, il nome della sede richiedente, il codice dell’articolo e il numero di pezzi richiesti. 
+Progettare una soluzione al problema di gestione del deposito che dato un insieme di ordini, consenta  per ogni ordine di: 
+- visualizzare i dettagli dell’ordine; 
+
+- comunicare se l’ordine può essere evaso oppure no mediante un messaggio; 
+
+- comunicare l’importo totale comprensivo del ricarico in caso di evasione dell’ordine;  
+
+- dopo aver trattato tutti gli ordini, visualizzare i dettagli dell’ordine evaso con l’importo maggiore. 
+
+
+ 
+Per la soluzione del problema, sviluppare le seguenti fasi: 
+ 
+a) Analizzare il problema chiarendo le sue specifiche e formulando eventuali ipotesi necessarie per la soluzione. Individuare i dati di ingresso (dominio di definizione) e fornire un campione. Individuare i dati di uscita o risultati (dominio di definizione) e fornire il campione associato al campione di ingresso. Sintetizzare l'analisi indicando l'incognita, i dati di ingresso e la condizione. 
+ 
+b) Progettare la strategia di soluzione individuando una scomposizione del problema in sottoproblemi e rappresentarla mediante uno schema (ad es. l’albero di sviluppo). 
+ 
+c) Descrivere la strategia di soluzione mediante un linguaggio di descrizione. 
+ 
+d) Eseguire il trace con uno o più campioni di dati. 
+ 
+ 
+ 
+ 
+Per la soluzione del problema, sviluppare le seguenti fasi: 
+ 
+a) Analizzare il problema chiarendo le sue specifiche e formulando eventuali ipotesi necessarie per la soluzione. Individuare i dati di ingresso (dominio di definizione) e fornire un campione. Individuare i dati di uscita o risultati (dominio di definizione) e fornire il campione associato al campione di ingresso. Sintetizzare l'analisi indicando l'incognita, i dati di ingresso e la condizione. 
+ 
+b)  Progettare la strategia di soluzione individuando una scomposizione del problema in sottoproblemi e rappresentarla mediante uno schema (ad es. l’albero di sviluppo). 
+ 
+c) Descrivere la strategia di soluzione mediante un linguaggio di descrizione. 
+ 
+d) Eseguire il trace con uno o più campioni di dati. 
+ 
+
