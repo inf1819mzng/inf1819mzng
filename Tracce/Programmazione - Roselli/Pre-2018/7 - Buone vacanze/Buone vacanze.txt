@@ -1,0 +1,35 @@
+CORSO DI LAUREA: INFORMATICA
+ PROGRAMMAZIONE
+Prof.ssa Teresa Roselli
+
+PROVA SCRITTA – 10 LUGLIO 2017
+
+Cognome 	Nome  	
+
+Regolamento: coloro che non hanno superato la prova in itinere o che intendono rifiutare il voto della prova in itinere devono svolgere l’esercizio A. Coloro che hanno superato la prova in itinere e intendono mantenere il voto devono svolgere l’esercizio B. La prova dura 3,30 ore per i primi e 1,30 ore per i secondi. Per la soluzione del problema l’utilizzo della struttura file sarà oggetto di bonus. Ulteriore bonus sarà assegnato a colori che progetteranno la soluzione dell’esercizio C.
+
+
+Esercizio A
+L’agenzia “Buone vacanze” gestisce le prenotazioni per un villaggio turistico mediante una tabella che per ogni appartamento riporta: codice, numero stanze, occupazione. Il campo occupazione è composto da 4 sottocampi che riportano, per ogni mese da giugno a settembre, l’indicazione di libero oppure già occupato. I clienti dell’agenzia effettuano le loro richieste inviando il numero di stanze e il mese di interesse.
+Progettare una soluzione al problema di gestione delle richieste che fornisca in output:
+* Per ogni richiesta trattata un messaggio di richiesta accettata o rifiutata;
+* In caso di accettazione, il codice dell’appartamento assegnato;
+* Il mese e la tipologia dell’appartamento più richiesti.
+* La tabella aggiornata.
+Per la soluzione del problema, sviluppare le seguenti fasi:
+a) Analizzare il problema chiarendo le sue specifiche e formulando eventuali ipotesi necessarie per la soluzione. Individuare i dati di ingresso (dominio di definizione) e fornire un campione. Individuare i dati di uscita o risultati (dominio di definizione) e fornire il campione associato al campione di ingresso.
+b) Progettare la strategia di soluzione individuando una scomposizione del problema in sottoproblemi e rappresentarla mediante uno schema (ad es. l’albero di sviluppo).
+c) Descrivere la strategia di soluzione mediante un linguaggio di descrizione.
+d) Codificare la soluzione.
+
+Esercizio B.
+Della traccia A svolgere solo i punti 1 e 2.
+Per la soluzione del problema, sviluppare le seguenti fasi:
+a) Analizzare il problema chiarendo le sue specifiche e formulando eventuali ipotesi necessarie per la soluzione. Individuare i dati di ingresso (dominio di definizione) e fornire un campione. Individuare i dati di uscita o risultati (dominio di definizione) e fornire il campione associato al campione di ingresso.
+b) Progettare la strategia di soluzione individuando una scomposizione del problema in sottoproblemi e rappresentarla mediante uno schema (ad es. l’albero di sviluppo).
+c) Descrivere la strategia di soluzione mediante un linguaggio di descrizione.
+d) Codificare la soluzione.
+
+Esercizio C.
+
+Data una matrice di N righe e N colonne i cui valori sono numeri reali, calcolare il valore medio della mediana.

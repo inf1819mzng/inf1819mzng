@@ -1,0 +1,40 @@
+I appello 2018
+-Memoria Cache e la sua gestione
+-Memoria virtuale e algoritmi LRU e Belady
+-Semafori
+
+II appello 2018
+-Pipeline a livello di istruzione
+-Algoritmo del banchiere per l'esclusione dello stallo
+-Page fault
+
+III appello 2018
+-Codice di Hamming per la correzione degli errori
+-Modello a 5 stati dei processi
+-Soluzioni hardware per la mutua esclusione
+
+
+I appello 2019
+Traccia dispari:
+-Pipeline e parallelismo
+-Algoritmo del banchiere
+-Cosa succede quando si verifica una trap
+Traccia pari:
+-ISA
+-Modello a 7 stati
+-Gli inode
+
+II appello 2019
+RAID
+Semafori
+Algoritmi di scheduling con prerilascio
+
+III appello 2019
+Traccia dispari:
+Pipeline
+Codice di Hamming
+Algoritmi di replacement della cache
+Traccia pari:
+RAID
+Modello a 5 stati
+Metodi per il Page fault nella memoria virtuale

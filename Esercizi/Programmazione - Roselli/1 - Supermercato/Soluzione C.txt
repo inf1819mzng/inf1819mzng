@@ -1,0 +1,210 @@
+/*
+ * supermercato.c
+ *
+ *  Created on: 11/gen/2018
+ *      Author: veronica
+ */
+
+//Esercizio supermercati
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+//#include<bool.h>
+//DICHIARAZIONE COSTANTI
+#define MAX_ARR 10
+#define MAX_STRING 20
+
+
+//DEFINIZIONE TIPI
+typedef struct{
+        char nome_resp[MAX_STRING];
+        char cogn_resp[MAX_STRING];
+        char via[MAX_STRING];
+        int n_civ;
+        char citta[MAX_STRING];
+        int n_dip;
+        float fatturato;
+}Supermercati;
+
+
+
+
+//PROTOTIPI SOTTOPROGRAMMI
+Supermercati InserimentoSupermercato(int );
+void RicercaResp(Supermercati [],int ,char [], char []);
+void StampaRecord(Supermercati ,int );
+int RicercaCitta(Supermercati [], int , char []);
+
+
+
+
+int main(){
+        Supermercati sup[MAX_ARR];
+        int i;//Indice dell'array sup[]
+        int j=0;//Indice che tiene traccia della prima posizione libera dell'array sup[]
+        int scelta;
+        int repeat1=1;//Flag che varia a seconda della volont‡ dell'utente di inserire o meno un altro supermercato
+        char nome_in[MAX_STRING];
+        char cogn_in[MAX_STRING];
+        char citta_in[MAX_STRING];
+        int count_citta;
+
+        //MENU
+        do{
+                printf("\n******************************Menu****************************\n");
+                printf("\nPremere 1 per inserire i dati relativi ad un nuovo ristorante;\n");
+                printf("\nPremere 2 per visualizzare i dati del/i supermercato/i dato il nominativo di un responsabile inserito;\n");
+                printf("\nPremere 3 per visualizzare il numero di supermercati che sono presenti in una citta' inserita;\n");
+                printf("\nPremere 4 per visualizzare il supermercato con il maggior numero di dipendenti;\n");
+                printf("\nPremere 0 per uscire;\n");
+                scanf("%d",&scelta);
+                switch(scelta)
+                {
+                        case 1:
+                                        for(i=j;i<MAX_ARR&&repeat1==1;i++)
+                                        {
+                                                sup[i]=InserimentoSupermercato(i);
+                                                j++;
+                                                printf("\nVuoi ripetere?(s=1/n=0)\n");
+                                                scanf("%d",&repeat1);
+                                        }
+                        break;
+                        case 2:
+                                        if(j==0)
+                                        {
+                                                printf("\nImpossibile soddisfare la richiesta perche' non esistono supermercati nella tabella.\n");
+                                        }
+                                        else
+                                        {
+                                                printf("\nInserisci il nome del responsabile da cercare: ");
+                                                scanf("%s",nome_in);
+                                                printf("\nInserisci il cognome del responsabile da cercare: ");
+                                                scanf("%s",cogn_in);
+                                                RicercaResp(sup, j, nome_in, cogn_in);
+                                        }
+                        break;
+                        case 3:
+                                        if(j==0)
+                                        {
+                                                printf("\nImpossibile soddisfare la richiesta perche' non esistono supermercati nella tabella.\n");
+                                        }
+                                        else
+                                        {
+                                                printf("\nInserisci la citta' da cercare: ");
+                                                scanf("%s",citta_in);
+                                                count_citta= RicercaCitta(sup, j, citta_in);
+                                                if(count_citta==0)
+                                                {
+                                                        printf("\nNon esistono supermercati nella citta' di %s.\n",citta_in);
+                                                }
+                                                else
+                                                {
+                                                        printf("\nI supermercati presenti nella citta' di %s sono %d",citta_in,count_citta);
+                                                }
+                                        }
+                        break;
+                        case 4:
+                                        if(j==0)
+                                        {
+                                                printf("\nImpossibile soddisfare la richiesta perche' non esistono supermercati nella tabella.\n");
+                                        }
+                                        else
+                                        {
+                                                for(i=0;i<j;i++)
+                                                {
+                                                        if(sup[i].n_dip==CalcolaMassimo(sup,j)) StampaRecord(sup[i],i);
+                                                }
+                                        }
+                        break;
+                        default:
+                                         if(scelta!=0)  printf("\nErrore!\n");
+                }
+        } while(scelta!=0);
+        system("pause");
+        return 0;
+}
+
+//DICHIARAZIONE SOTTOPROGRAMMI
+
+Supermercati InserimentoSupermercato(int ind)
+{
+        Supermercati record;
+        printf("\n***********************Ristorante numero %d************************\n",ind+1);
+        printf("\nInserire il nome del responsabile: ");
+        scanf("%s",record.nome_resp);
+        printf("\nInserire il cognome del responsabile: ");
+        scanf("%s",record.cogn_resp);
+        printf("\n\nInserimento indirizzo supermercato:");
+        printf("\nInserire la via del supermercato: ");
+        scanf("%s",record.via);
+        do{
+                printf("\nInserire il numero civico del supermercato: ");
+                scanf("%d",&record.n_civ);
+                if(record.n_civ<=0)             printf("\nErrore!!\n");
+        } while (record.n_civ<=0);
+        printf("\nInserire la citta' del supermercato: ");
+        scanf("%s",record.citta);
+        printf("\nInserire il numero di dipendenti del supermercato: ");
+        scanf("%d",&record.n_dip);
+        printf("\nInserire il fatturato del supermercato: ");
+        scanf("%f",&record.fatturato);
+        return record;
+}
+
+
+void RicercaResp(Supermercati database[],int dim,char nome[], char cognome[])
+{
+        int ind;
+        int flag=0;
+        for(ind=0;ind<dim;ind++)
+        {
+                //printf("Nome responsabile: %s",database[ind].nome_resp);
+                //printf("Nome Inserito: %s",nome);
+                if((strcmp(database[ind].nome_resp,nome)==0)&&(strcmp(database[ind].cogn_resp,cognome)==0))
+                {
+                        flag=1;
+                        StampaRecord(database[ind],ind);
+                }
+        }
+        if(flag==0)             printf("Non esiste alcun supermercato diretto da %s %s",nome,cognome);
+}
+
+void StampaRecord(Supermercati record,int x)
+{
+        printf("\n**************************Supermercato numero %d **************************\n",x+1);
+        printf("\nNome responsabile-----> %s",record.nome_resp);
+        printf("\nCognome responsabile-----> %s",record.cogn_resp);
+        printf("\nIndirizzo supermercato-----> %s-%d",record.via,record.n_civ);
+        printf("\nCitta' supermercato-----> %s",record.citta);
+        printf("\nNumero dipendenti supermercato-----> %d",record.n_dip);
+        printf("\nFatturato supermercato-----> %.2f",record.fatturato);
+}
+
+int RicercaCitta(Supermercati database[], int dim, char citta[])
+{
+        int ind;
+        int count=0;
+        for(ind=0;ind<dim;ind++)
+        {
+                if(strcmp(database[ind].citta,citta)==0)        count++;
+
+        }
+        return count;
+}
+
+
+
+int CalcolaMassimo(Supermercati database[],int dim)
+{
+        int max=0;
+        int ind;
+        for(ind=0;ind<dim;ind++)
+        {
+                if(database[ind].n_dip>max)             max=database[ind].n_dip;
+        }
+        return max;
+}
+
+
+

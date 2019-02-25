@@ -1,0 +1,23 @@
+PROVA SCRITTA DEL 19 APRILE 2017
+
+ESAME DI  PROGRAMMAZIONE
+CORSO DI LAUREA: INFORMATICA
+Prof.ssa Teresa Roselli
+
+
+ESERCIZIO A
+
+La catena di ristoranti “BUON APPETITO” gestisce le prenotazioni dei clienti mediante una tabella che, per ogni sede, riporta il codice della sede, la città della sede, il numero totale dei posti disponibili e il numero dei posti occupati. Le prenotazioni vengono raccolte da un’agenzia che invia l’elenco che per ciascuna prenotazione riporta il codice della prenotazione, il codice della sede e il numero dei posti che si vogliono prenotare. Si suppone che i tavoli vengano organizzati in base alle prenotazioni.
+Progettare una soluzione al problema di gestione delle prenotazioni che fornisca in output:
+1. Per ogni prenotazione trattata un messaggio di prenotazione accettata o rifiutata;
+2. Il codice della prenotazione con il numero maggiore di posti richiesti, indipendentemente dall’esito della prenotazione, e i corrispondenti codice della sede e città della sede;
+3. L’elenco ordinato per numero posti da prenotare rispetto ad una sede inserita in input
+4. La tabella aggiornata.
+
+Per la soluzione del problema, sviluppare le seguenti fasi:
+
+a) Analizzare il problema chiarendo le sue specifiche e formulando eventuali ipotesi necessarie per la soluzione. Individuare i dati di ingresso (dominio di definizione) e fornire un campione. Individuare i dati di uscita o risultati (dominio di definizione) e fornire il campione associato al campione di ingresso.
+b) Progettare la strategia di soluzione individuando una scomposizione del problema in sottoproblemi e rappresentarla mediante uno schema (ad es. l’albero di sviluppo).
+c) Descrivere la strategia di soluzione mediante un linguaggio di descrizione.
+d) Codificare la soluzione.
+e) Eseguire il trace con uno o più campioni di dati.

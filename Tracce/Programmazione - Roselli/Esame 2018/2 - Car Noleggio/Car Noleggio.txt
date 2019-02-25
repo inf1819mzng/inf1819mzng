@@ -1,0 +1,39 @@
+PROVA SCRITTA DEL
+30 gennaio 2019
+
+ESAME DI  PROGRAMMAZIONE
+CORSO DI LAUREA:INFORMATICA
+Prof.ssa Teresa Roselli
+
+Regolamento: coloro che non hanno superato la prova in itinere o che intendono rifiutare il voto della prova in itinere devono svolgere l’esercizio A. Coloro che hanno superato la prova in itinere e intendono mantenere il voto devono svolgere l’esercizio B. La prova dura 3,5 ore per i primi e 1,5 ore per i secondi. Per la soluzione del problema l’utilizzo della struttura file sarà oggetto di bonus.
+
+Esercizio A
+
+La società CAR- NOLEGGIO gestisce la sua attività mediante una tabella che per ogni tipologia di macchina riporta i seguenti dati: marca, modello, alimentazione, numero cavalli, velocità massima, numero porte, anno di immatricolazione, costo giornaliero, numero autoveicoli disponibili.
+
+I clienti effettuano le loro richieste inviando la marca e il modello e il numero dei giorni di noleggio.
+
+Progettare una soluzione al problema di gestione delle richieste che fornisca in output:
+* Per ogni richiesta, l’elenco delle macchine che la soddisfano (ovvero che hanno almeno un autoveicolo disponibile) con i costi totali relativi, oppure un messaggio di indisponibilità;
+* La tabella ordinata per costo giornaliero.
+
+
+Per la soluzione del problema, sviluppare le seguenti fasi:
+
+a) Analizzare il problema chiarendo le sue specifiche e formulando eventuali ipotesi necessarie per la soluzione. Individuare i dati di ingresso (dominio di definizione) e fornire un campione. Individuare i dati di uscita o risultati (dominio di definizione) e fornire il campione associato al campione di ingresso.
+b) Progettare la strategia di soluzione individuando una scomposizione del problema in sottoproblemi e rappresentarla mediante uno schema (ad es. l’albero di sviluppo).
+c) Descrivere la strategia di soluzione mediante un linguaggio di descrizione.
+d) Codificare la soluzione.
+e) Eseguire il trace con uno o più campioni di dati.
+
+Esercizio B (per gli esonerati)
+La società CAR- NOLEGGIO gestisce la sua attività mediante una tabella che per ogni tipologia di macchina riporta i seguenti dati: marca, modello, alimentazione, numero cavalli, velocità massima, numero porte, anno di immatricolazione, costo giornaliero, numero autoveicoli disponibili.
+1. Si chiede di ordinare la tabella per anno di immatricolazione.
+2. Ipotizzando che esista una sola occorrenza per anno di immatricolazione, inserito un anno verificare se esiste nella tabella una macchina immatricolata in quell’anno.
+Per la soluzione del problema, sviluppare le seguenti fasi:
+a) Analizzare il problema chiarendo le sue specifiche e formulando eventuali ipotesi necessarie per la soluzione. Individuare i dati di ingresso (dominio di definizione) e fornire un campione. Individuare i dati di uscita o risultati (dominio di definizione) e fornire il campione associato al campione di ingresso.
+b) Progettare la strategia di soluzione individuando una scomposizione del problema in sottoproblemi e rappresentarla mediante uno schema (ad es. l’albero di sviluppo).
+c) Descrivere la strategia di soluzione mediante un linguaggio di descrizione.
+d) Codificare la soluzione.
+
+

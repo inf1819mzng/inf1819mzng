@@ -1,0 +1,34 @@
+CORSO DI LAUREA: INFORMATICA
+ PROGRAMMAZIONE
+Prof.ssa Teresa Roselli
+
+PROVA SCRITTA – 16 GENNAIO 2019
+
+Cognome 	Nome  	
+
+Regolamento: coloro che non hanno superato la prova in itinere o che intendono rifiutare il voto della prova in itinere devono svolgere l’esercizio A. Coloro che hanno superato la prova in itinere e intendono mantenere il voto devono svolgere l’esercizio B. La prova dura 3,5 ore per i primi e 1,5 ore per i secondi. Per la soluzione del problema l’utilizzo della struttura file sarà oggetto di bonus.
+
+Traccia A
+L’agenzia eventi “Fiesta” intende gestire le prenotazioni dei clienti tramite una tabella. Per ogni evento sono note le seguenti informazioni: codice; data; luogo; descrizione; numero massimo di partecipanti; numero prenotati; prezzo per persona. Le prenotazioni riportano il codice dell’evento; il luogo e il numero di partecipanti.
+Il programma dovrà consentire di:
+* Creare la tabella.
+* Comunicare, per ogni prenotazione, se la prenotazione è accettabile e il costo complessivo o, altrimenti, quanti sono i posti rimasti disponibili;
+* Visualizzare la tabella ordinata per prezzo per persona crescente.
+Per la soluzione del problema, sviluppare le seguenti fasi:
+a) Analizzare il problema chiarendo le sue specifiche e formulando eventuali ipotesi necessarie per la soluzione. Individuare i dati di ingresso (dominio di definizione) e fornire un campione. Individuare i dati di uscita o risultati (dominio di definizione) e fornire il campione associato al campione di ingresso.
+b) Progettare la strategia di soluzione individuando una scomposizione del problema in sottoproblemi e rappresentarla mediante uno schema (ad es. l’albero di sviluppo).
+c) Descrivere la strategia di soluzione mediante un linguaggio di descrizione.
+d) Codificare la soluzione.
+
+Traccia B.
+L’agenzia eventi “Fiesta” intende gestire le prenotazioni dei clienti tramite una tabella. Per ogni evento sono note le seguenti informazioni: codice; data; luogo; descrizione; numero massimo di partecipanti; numero prenotati; prezzo per persona. Le prenotazioni riportano il codice dell’evento; il luogo e il numero di partecipanti.
+Il programma dovrà consentire di:
+* Creare la tabella.
+* Visualizzare la tabella ordinata per data.
+Per la soluzione del problema, sviluppare le seguenti fasi:
+a) Analizzare il problema chiarendo le sue specifiche e formulando eventuali ipotesi necessarie per la soluzione. Individuare i dati di ingresso (dominio di definizione) e fornire un campione. Individuare i dati di uscita o risultati (dominio di definizione) e fornire il campione associato al campione di ingresso.
+b) Progettare la strategia di soluzione individuando una scomposizione del problema in sottoproblemi e rappresentarla mediante uno schema (ad es. l’albero di sviluppo).
+c) Descrivere la strategia di soluzione mediante un linguaggio di descrizione.
+d) Codificare la soluzione.
+
+

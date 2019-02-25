@@ -1,0 +1,24 @@
+CORSO DI LAUREA: INFORMATICA PROGRAMMAZIONE
+Prof.ssa Teresa Roselli
+PROVA SCRITTA– 22 SETTEMBRE 2017
+
+Cognome 	Nome  	
+
+
+Regolamento: La prova dura 3 ore Per la soluzione del problema l’utilizzo della struttura file sarà oggetto di bonus. Ulteriore bonus sarà assegnato a coloro che progetteranno la soluzione dell’esercizio B.
+
+Esercizio A
+
+La ditta traslochi “QuickMove” intende creare una tabella per una più efficiente gestione delle prenotazioni di traslochi. Per ogni trasloco il sistema deve memorizzare: il codice del trasloco; la data; l’indirizzo di partenza; l’indirizzo di destinazione; il codice della squadra di dipendenti coinvolti; il tipo di automezzo necessario (furgone, camion, autoscala); le ore di lavoro previste; il costo totale.
+Progettare una soluzione al problema che consenta di visualizzare tutti i traslochi previsti in una specifica data. Inoltre, poiché la ditta assegna un premio ai dipendenti che hanno effettuato il maggior numero di traslochi, visualizzare il codice della squadra da premiare.
+
+Per la soluzione del problema, sviluppare le seguenti fasi:
+a) Analizzare il problema chiarendo le sue specifiche e formulando eventuali ipotesi necessarie per la soluzione. Individuare i dati di ingresso (dominio di definizione) e fornire un campione. Individuare i dati di uscita o risultati (dominio di definizione) e fornire il campione associato al campione di ingresso.
+b) Progettare la strategia di soluzione individuando una scomposizione del problema in sottoproblemi e rappresentarla mediante uno schema (ad es. l’albero di sviluppo).
+c) Descrivere la strategia di soluzione mediante un linguaggio di descrizione.
+d) Codificare la soluzione.
+
+Esercizio B.
+
+Data una matrice di N righe e N colonne i cui valori sono numeri reali, calcolare il valore medio della mediana.
+

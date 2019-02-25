@@ -1,0 +1,36 @@
+CORSO DI LAUREA: INFORMATICA
+ PROGRAMMAZIONE
+Prof.ssa Teresa Roselli
+
+PROVA SCRITTA – 7 FEBBRAIO 2017
+
+Cognome 	Nome  	
+
+Regolamento: coloro che non hanno superato la prova in itinere o che intendono rifiutare il voto della prova in itinere devono svolgere l’esercizio A. Coloro che hanno superato la prova in itinere e intendono mantenere il voto devono svolgere l’esercizio B. La prova dura 3,5 ore per i primi e 1,5 ore per i secondi. Per la soluzione del problema l’utilizzo della struttura file sarà oggetto di bonus.
+
+Esercizio A
+Un’emittente televisiva deve pianificare la messa in onda di spot pubblicitari che può avvenire in tre fasce orarie:
+di mattina (8.00-12.00), di pomeriggio (13.00-17.00) o di sera (18.00-22.00).
+L’emittente dispone dell’elenco degli spot che riporta per ciascuno le seguenti informazioni: codice dello spot,
+titolo, durata in minuti, costo, fascia oraria.
+Progettare una soluzione al problema che consenta di:
+	
+1. Caricare le informazioni relative  agli spot in una tabella (file);
+2. Inserita in input una fascia oraria, visualizzare lo spot relativo alla fascia oraria inserita di durata
+massima;
+3. Inserito in input un periodo di tempo, visualizzare tutti gli spot che hanno la durata inserita in ordine crescente rispetto al costo.
+Per la soluzione del problema, sviluppare le seguenti fasi:
+a) Analizzare il problema chiarendo le sue specifiche e formulando eventuali ipotesi necessarie per la soluzione. Individuare i dati di ingresso (dominio di definizione) e fornire un campione. Individuare i dati di uscita o risultati (dominio di definizione) e fornire il campione associato al campione di ingresso.
+b) Progettare la strategia di soluzione individuando una scomposizione del problema in sottoproblemi e rappresentarla mediante uno schema (ad es. l’albero di sviluppo).
+c) Descrivere la strategia di soluzione mediante un linguaggio di descrizione.
+d) Codificare la soluzione.
+
+Esercizio B.
+Della traccia A svolgere solo i punti 1 e 3.
+Per la soluzione del problema, sviluppare le seguenti fasi:
+a) Analizzare il problema chiarendo le sue specifiche e formulando eventuali ipotesi necessarie per la soluzione. Individuare i dati di ingresso (dominio di definizione) e fornire un campione. Individuare i dati di uscita o risultati (dominio di definizione) e fornire il campione associato al campione di ingresso.
+b) Progettare la strategia di soluzione individuando una scomposizione del problema in sottoproblemi e rappresentarla mediante uno schema (ad es. l’albero di sviluppo).
+c) Descrivere la strategia di soluzione mediante un linguaggio di descrizione.
+d) Codificare la soluzione.
+
+

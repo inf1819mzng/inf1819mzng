@@ -1,0 +1,33 @@
+CORSO DI LAUREA: INFORMATICA
+ PROGRAMMAZIONE
+Prof.ssa Teresa Roselli
+
+PROVA SCRITTA – 23 FEBBRAIO 2017
+
+Cognome 	Nome  	
+
+Regolamento: coloro che non hanno superato la prova in itinere o che intendono rifiutare il voto della prova in itinere devono svolgere l’esercizio A. Coloro che hanno superato la prova in itinere e intendono mantenere il voto devono svolgere l’esercizio B. La prova dura 3,5 ore per i primi e 1,5 ore per i secondi. Per la soluzione del problema l’utilizzo della struttura file sarà oggetto di bonus.
+
+Esercizio A
+Nell’ambito del commercio elettronico, un’azienda raccoglie le richieste di acquisto di tutta la settimana che le provengono da vari siti. Per ogni richiesta sono noti i seguenti dati: codice del sito, data della richiesta, codice del cliente, codice dell’articolo, descrizione dell’articolo, numero pezzi richiesti, costo del singolo pezzo.
+Progettare una soluzione al problema che consenta di:
+	
+1. Caricare le richieste in una tabella (file);
+2. Inserito in input un codice di un articolo e il codice di un sito, visualizzare tutte le richieste in
+ordine crescente rispetto al costo totale;
+3. Inserito in input il codice di un sito, visualizzare il codice cliente che ha effettuato l’ordine con il costo maggiore.
+Per la soluzione del problema, sviluppare le seguenti fasi:
+a) Analizzare il problema chiarendo le sue specifiche e formulando eventuali ipotesi necessarie per la soluzione. Individuare i dati di ingresso (dominio di definizione) e fornire un campione. Individuare i dati di uscita o risultati (dominio di definizione) e fornire il campione associato al campione di ingresso.
+b) Progettare la strategia di soluzione individuando una scomposizione del problema in sottoproblemi e rappresentarla mediante uno schema (ad es. l’albero di sviluppo).
+c) Descrivere la strategia di soluzione mediante un linguaggio di descrizione.
+d) Codificare la soluzione.
+
+Esercizio B.
+Della traccia A svolgere solo i punti 1 e 2.
+Per la soluzione del problema, sviluppare le seguenti fasi:
+a) Analizzare il problema chiarendo le sue specifiche e formulando eventuali ipotesi necessarie per la soluzione. Individuare i dati di ingresso (dominio di definizione) e fornire un campione. Individuare i dati di uscita o risultati (dominio di definizione) e fornire il campione associato al campione di ingresso.
+b) Progettare la strategia di soluzione individuando una scomposizione del problema in sottoproblemi e rappresentarla mediante uno schema (ad es. l’albero di sviluppo).
+c) Descrivere la strategia di soluzione mediante un linguaggio di descrizione.
+d) Codificare la soluzione.
+
+
